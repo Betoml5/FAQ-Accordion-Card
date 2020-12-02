@@ -33,20 +33,31 @@ body {
 .main__card {
   position: relative;
   width: 80%;
-  max-width: 320px;
+  max-width: 375px;
   border-radius: 12px;
   padding: 40px 10px;
   background-color: #fff;
+  background-image: url("../images/bg-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.main__card .main__img-desktop {
+  position: absolute;
+  width: 250px;
+  top: -26%;
+  right: calc(50% - 112px);
 }
 
 .main__card .main__card-faq {
   font-size: 3rem;
   text-align: center;
   font-weight: 700;
+  margin-top: 50px;
   padding: 30px 0;
 }
 
-.main__questions {
+.main__card .main__questions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +72,7 @@ body {
           justify-content: center;
 }
 
-.main__questions-item {
+.main__card .main__questions-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,5 +82,23 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 16px 12px;
+  border-bottom: 1px solid #e7e7e9;
+}
+
+.main__card .main__questions-item p {
+  font-size: 1.2rem;
+}
+
+.main__card .main__questions-item p:hover {
+  color: #f47c57;
+}
+
+.main__question-item-hidden {
+  display: none;
+}
+
+.main__question-item-show {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
