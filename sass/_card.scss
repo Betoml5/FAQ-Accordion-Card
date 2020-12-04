@@ -5,6 +5,8 @@
     max-width: 375px;
     border-radius: 12px;
     padding: 40px 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+
     background-color:$color-white;
     background-image: url('../images/bg-pattern-mobile.svg');
     background-repeat: no-repeat;
@@ -13,7 +15,7 @@
     & .main__img-desktop{
         position: absolute;
         width: 250px;
-        top: -25%;
+        top: -23%;
         right: calc(50% - 112px);
     }
 
@@ -61,26 +63,6 @@
     &:hover{
         color: hsl(14, 88%, 65%);
     }
-}
-
-// Toggles classes
-
-.main__question-item-hidden{
-    display: none;
-    margin-top: 6px;
-    font-size: 1.2rem;
-}
-
-.main__question-item-show{
-    display: inline-block;
-}
-
-.rotate{
-    transform: rotate(180deg);
-}
-
-.strong{
-    font-weight: 700;
 }
 
 

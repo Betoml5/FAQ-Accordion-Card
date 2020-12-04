@@ -1,0 +1,20 @@
+// Toggles classes
+
+.main__question-item-hidden{
+    display: none;
+    margin-top: 6px;
+    font-size: 1.2rem;
+}
+
+.main__question-item-show{
+    display: inline-block;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.strong{
+    font-weight: 700;
+}
+

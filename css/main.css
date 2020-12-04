@@ -36,6 +36,8 @@ body {
   max-width: 375px;
   border-radius: 12px;
   padding: 40px 10px;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   background-image: url("../images/bg-pattern-mobile.svg");
   background-repeat: no-repeat;
@@ -45,7 +47,7 @@ body {
 .main__card .main__img-desktop {
   position: absolute;
   width: 250px;
-  top: -25%;
+  top: -23%;
   right: calc(50% - 112px);
 }
 
