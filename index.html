@@ -8,10 +8,11 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
   <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1440px)">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </style>
 </head>
 
@@ -21,8 +22,13 @@
 
     <div class="main__card">
 
-
-      <img class="main__img-desktop" src="./images/illustration-woman-online-mobile.svg" alt="womanOnlineDesktop">
+      
+      <img class="main__card-img-box" src="./images/illustration-box-desktop.svg" alt="imageBox">
+      <picture >
+          <source media="(min-width: 1440px)" srcset="./images/illustration-woman-online-desktop.svg">
+            
+        <img class="main__img-desktop" src="./images/illustration-woman-online-mobile.svg" alt="womanOnlineDesktop">
+      </picture>
 
 
       <h2 class="main__card-faq">FAQ</h2>

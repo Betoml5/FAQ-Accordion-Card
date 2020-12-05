@@ -12,6 +12,11 @@
     background-repeat: no-repeat;
     background-position: top center;
 
+    & .main__card-img-box{
+        display: none;
+        
+    }
+
     & .main__img-desktop{
         position: absolute;
         width: 250px;
@@ -52,6 +57,8 @@
         & .arrowDown-image{
             transition: 300ms all ease;
         }
+
+        
         
     }
 }

@@ -1,0 +1,48 @@
+.main__card{
+    max-width: 950px;
+    padding: 60px;
+
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: -18%;
+    background-position-y: -30px;
+
+    & .main__card-img-box{
+        position: absolute;
+        top: calc(47% - 60px);
+        left: -10%;
+        display: inherit;
+        z-index: 2;
+        width: 180px;
+        
+    }
+
+    & .main-question-item-h3{
+        font-size: 2.0rem;
+    }
+
+    & .main__card-faq{
+        padding: 0px;
+        margin: 0;
+        width: 90%;
+    }
+    & .main__questions{
+        width: 60%;
+        float: right;
+    }
+
+    & .main__img-desktop{
+        width: 400px;
+        top: calc(50% - 175px);
+        left: -7%;
+    }
+
+    & .main__question-item-hidden{
+        font-size: 1.8rem;
+    }
+
+    & .arrowDown-image{
+        width:20px;
+    }
+}

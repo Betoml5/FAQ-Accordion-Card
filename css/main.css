@@ -44,6 +44,10 @@ body {
   background-position: top center;
 }
 
+.main__card .main__card-img-box {
+  display: none;
+}
+
 .main__card .main__img-desktop {
   position: absolute;
   width: 250px;
